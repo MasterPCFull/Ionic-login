@@ -1,14 +1,40 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+<<ion-header>
+  <ion-navbar color="danger">
+  <button ion-button menuToggle>
+  <ion-icon name="menu"></ion-icon>
+  </button>
+ 
+  <ion-title>
+ Adicione seus Aplicativos aqui !!!
+  </ion-title>
   </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v3">docs</a> will be your guide.
-  </p>
+ </ion-header>
+ <ion-content padding>
+  <ion-list>
+  <ion-item (click)="enviarE('Alarme')">
+  <ion-icon name='alarm'></ion-icon>
+  App Alarme
+  </ion-item>
+  <ion-item (click)="enviarD('Android')">
+  <ion-icon name='logo-android'></ion-icon>
+  APP Android
+  </ion-item>
+  <ion-item (click)="enviarC('linkedin')">
+    <ion-icon name='logo-linkedin'></ion-icon>
+  APP Linkedin
+</ion-item>
+<ion-item (click)="enviarB('xbox')">
+  <ion-icon name='logo-xbox'></ion-icon>
+ APP Xbox
+</ion-item>
+<ion-item (click)="enviarA('skype')">
+  <ion-icon name='logo-skype'></ion-icon>
+  APP Skype
+</ion-item>
+</ion-list>
 </ion-content>
+<ion-footer>
+  <ion-toolbar color="secondary">
+  <ion-title>Projeto2020</ion-title>
+  </ion-toolbar>
+ </ion-footer>
