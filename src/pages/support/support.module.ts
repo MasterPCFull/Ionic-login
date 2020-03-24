@@ -10,4 +10,4 @@ import { SupportPage } from './support';
     IonicPageModule.forChild(SupportPage),
   ],
 })
-export class SuportPageModule {}
+export class SupportPageModule {}

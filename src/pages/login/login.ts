@@ -38,8 +38,8 @@ export class LoginPage {
       
       mostrarAlert(){ 
         let alert = this.alertCtrl.create({
-          title: 'Erro Usuario ',
-          subTitle: 'Digite senha incorreta!',
+          title: 'Usuario ou Senha Incorretos ',
+          subTitle: 'Digite novamente ou entre contato com support!',
           buttons: ['OK']
         });
         alert.present();
