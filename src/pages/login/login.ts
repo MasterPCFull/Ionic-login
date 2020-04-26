@@ -23,7 +23,7 @@ export class LoginPage {
 
   }
     signIn(){
-       if (this.uname.value == "x" && this.password.value == "x") {
+       if (this.uname.value == "Admin" && this.password.value == "12345678") {
       
       this.navCtrl.push ( WelcomePage);}
       
